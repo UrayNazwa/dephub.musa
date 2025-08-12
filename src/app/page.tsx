@@ -102,10 +102,10 @@ Pemilik</td>
         <h3 className="text-gray-600 text-xs md:text-sm uppercase font-medium mb-2 ml-1">FOTO KENDARAAN</h3>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-2 justify-items-center">
           {[
-            { title: "TAMPAK DEPAN", src: "/Tampak-depan.png" },
-            { title: "TAMPAK BELAKANG", src: "/Tampak-belakang.png" },
-            { title: "TAMPAK KANAN", src: "/Tampak-kanan.png" },
-            { title: "TAMPAK KIRI", src: "/Tampak-kiri.png" }
+            { title: "TAMPAK DEPAN", src: "/tampak-depan.png" },
+            { title: "TAMPAK BELAKANG", src: "/tampak-belakang.png" },
+            { title: "TAMPAK KANAN", src: "/tampak-kanan.png" },
+            { title: "TAMPAK KIRI", src: "/tampak-kiri.png" }
           ].map((foto, index) => (
             <div key={index} className="bg-white p-1 md:p-2 border border-gray-200 shadow-sm w-full">
               <h4 className="text-[9px] md:text-xs mb-1 text-center font-medium">{foto.title}</h4>
@@ -317,14 +317,14 @@ Pemilik</td>
                 </tr>
                 <tr className="border-b border-gray-200 hover:bg-gray-100">
                   <td className="py-2 md:py-3 w-2/5">Unit Pelaksana Teknis Daerah Pengujian</td>
-                  <td className="py-2 md:py-3">: DISHUB KABUPATEN KAYONG UTARA</td>
+                  <td className="py-2 md:py-3">: DISHUB KOTAWARINGIN BARAT</td>
                 </tr>
                 <tr className="border-b border-gray-200 bg-gray-50">
                   <td colSpan={2} className="py-2 md:py-3 font-bold text-[10px] md:text-xs">Asal Kendaraan Wajib Uji</td>
                 </tr>
                 <tr className="border-b border-gray-200 hover:bg-gray-100">
                   <td className="py-2 md:py-3 w-2/5">Wilayah</td>
-                  <td className="py-2 md:py-3">: DISHUB KABUPATEN KAYONG UTARA</td>
+                  <td className="py-2 md:py-3">: DISHUB KOTAWARINGIN BARAT</td>
                 </tr>
                 <tr className=" hover:bg-gray-100">
                   <td className="py-2 md:py-3 w-2/5">Wilayah Asal</td>
