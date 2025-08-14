@@ -30,7 +30,7 @@ export default function Home() {
 
       {/* Identity Sections */}
       <div className="max-w-7xl mx-auto w-full px-4">
-        <section className="flex flex-row justify-between gap-4 mb-6">
+        <section className="flex flex-col md:flex-row justify-between gap-4 mb-6">
           {/* Owner Identity */}
           <div className="w-full">
             <h3 className="text-gray-600 text-[11px] uppercase font-medium mb-2 ml-1"> IDENTITAS PEMILIK KENDARAAN DAN BLU<span style={{textTransform: 'lowercase'}}>e</span> </h3>
