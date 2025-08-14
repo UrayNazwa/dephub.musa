@@ -98,7 +98,7 @@ export default function Home() {
         {/* Vehicle Photos */}
         <section className="mb-6">
           <h3 className="text-gray-600 text-[11px] uppercase font-medium mb-2 ml-1">  FOTO KENDARAAN</h3>
-          <div className="grid grid-cols-4 gap-4">
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
           {[
             { title: "TAMPAK DEPAN", src: "/tampak-depan.png" },
             { title: "TAMPAK BELAKANG", src: "/tampak-belakang.png" },
@@ -122,7 +122,7 @@ export default function Home() {
       </section>
 
       {/* Specifications and Test Results */}
-      <section className="flex flex-row justify-between gap-4 mb-6">
+      <section className="flex flex-col md:flex-row justify-between gap-4 mb-6">
         {/* Technical Specifications */}
         <div className="w-full">
           <h3 className="text-gray-600 text-[11px] uppercase font-medium mb-2 ml-1">  SPESIFIKASI TEKNIS KENDARAAN BERMOTOR</h3>
