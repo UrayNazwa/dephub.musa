@@ -15,50 +15,48 @@ export default function Home() {
               height={30}
               className="rounded-full"
             />
-            <h1 className="text-sm md:text-md tracking-wide font-medium">KEMENTERIAN PERHUBUNGAN</h1>
+            <h1 className="text-base md:text-lg tracking-wide font-medium">KEMENTERIAN PERHUBUNGAN</h1>
           </div>
         </div>
       </header>
 
       {/* Main Content */}
       <main className="text-center py-4 px-4 max-w-4xl mx-auto pt-16 md:pt-20">
-        <h2 className="text-xl md:text-2xl mb-2 uppercase font-medium">UJI BERKALA KENDARAAN BERMOTOR</h2>
-        <p className="text-[#5dc761] text-lg md:text-xl font-medium">Hasil Uji Masih Berlaku</p>
-        <p className="text-[#6e45d9] text-base md:text-lg mt-1 font-medium">(Numpang Uji)</p>
-        <p className="text-base md:text-lg mt-3 mb-6">Masa Berlaku Hasil Uji : 02 DESEMBER 2025</p>
+        <h2 className="text-lg md:text-xl mb-2 uppercase font-medium">UJI BERKALA KENDARAAN BERMOTOR</h2>
+        <p className="text-[#5dc761] text-base md:text-lg font-medium">Hasil Uji Masih Berlaku</p>
+        <p className="text-[#6e45d9] text-sm md:text-base mt-1 font-medium">(Numpang Uji)</p>
+        <p className="text-sm md:text-base mt-3 mb-6">Masa Berlaku Hasil Uji : 02 DESEMBER 2025</p>
       </main>
 
       {/* Identity Sections */}
-      <div className="max-w-4xl mx-auto w-full">
-        <section className="flex flex-col md:flex-row justify-between px-4 gap-4 mb-6">
+      <div className="max-w-7xl mx-auto w-full px-4">
+        <section className="flex flex-row justify-between gap-4 mb-6">
           {/* Owner Identity */}
-          <div className="w-full md:w-1/2">
-            <h3 className="text-gray-600 text-xs md:text-sm uppercase font-medium mb-2 ml-1">IDENTITAS PEMILIK KENDARAAN DAN BLUe</h3>
-            <div className="bg-white p-2 md:p-3 border border-gray-200 shadow-sm">
-              <table className="w-full text-[10px] md:text-xs">
+          <div className="w-full">
+            <h3 className="text-gray-600 text-[11px] uppercase font-medium mb-2 ml-1"> IDENTITAS PEMILIK KENDARAAN DAN BLU<span style={{textTransform: 'lowercase'}}>e</span> </h3>
+            <div className="bg-white p-3 border border-gray-200 shadow-sm">
+              <table className="w-full text-[11px]">
                 <tbody>
                   <tr className="border-b border-gray-200 hover:bg-gray-100">
-                    <td className="py-2 md:py-3">Nama Pemilik</td>
-                    <td className="py-2 md:py-3">: NOUR ABDI</td>
+                    <td className="py-2 w-[35%]">Nama Pemilik</td>
+                    <td className="py-2">: NOUR ABDI</td>
                   </tr>
                   <tr className="border-b border-gray-200 hover:bg-gray-100">
-                    <td className="py-2 md:py-3 align-top">Alamat
-Pemilik</td>
-                    <td className="py-2 md:py-3">: DUSUN TANJUNG BELIMBING RT001/RW005,
-                            Pangkalan Buton Kec. Sukadana Kayong Utara  
-</td>
+                    <td className="py-2 w-[35%]">Alamat Pemilik</td>
+                    <td className="py-2">: DUSUN TANJUNG BELIMBING RT001/RW005, Pangkalan Buton Kec. Sukadana Kayong Utara </td>
                   </tr>
-                  <tr className="border-b border-gray-200 bg-gray-50 hover:bg-gray-200">
-                    <td colSpan={2} className="py-2 md:py-3 font-bold text-[10px] md:text-xs">Identitas
-<br/>BLUe</td>
+                  <tr className="border-b border-gray-200 bg-white hover:bg-gray-100">
+                    <td colSpan={2} className="py-2 font-bold text-[10px]">
+                      Identitas BLU<span style={{textTransform: 'lowercase'}}>e</span>
+                    </td>
                   </tr>
                   <tr className="border-b border-gray-200 hover:bg-gray-100">
-                    <td className="py-2 md:py-3">Nomor Kartu</td>
-                    <td className="py-2 md:py-3">: J4398433</td>
+                    <td className="py-2 w-[35%]">Nomor Kartu</td>
+                    <td className="py-2">: J4398433</td>
                   </tr>
-                  <tr className=" hover:bg-gray-100">
-                    <td className="py-2 md:py-3">Nomor RFID</td>
-                    <td className="py-2 md:py-3">: J4395278</td>
+                  <tr>
+                    <td className="py-2 w-[35%]">Nomor RFID </td>
+                    <td className="py-2">: J4395278</td>
                   </tr>
                 </tbody>
               </table>
@@ -66,30 +64,30 @@ Pemilik</td>
           </div>
 
           {/* Vehicle Identity */}
-          <div className="w-full md:w-1/2">
-            <h3 className="text-gray-600 text-xs md:text-sm uppercase font-medium mb-2 ml-1">IDENTITAS KENDARAAN BERMOTOR</h3>
-            <div className="bg-white p-2 md:p-3 border border-gray-200 shadow-sm">
-              <table className="w-full text-[10px] md:text-xs">
+          <div className="w-full">
+            <h3 className="text-gray-600 text-[11px] uppercase font-medium mb-2 ml-1">  IDENTITAS KENDARAAN BERMOTOR</h3>
+            <div className="bg-white p-3 border border-gray-200 shadow-sm">
+              <table className="w-full text-[11px]">
                 <tbody>
                   <tr className="border-b border-gray-200 hover:bg-gray-100">
-                    <td className="py-2 md:py-3 w-2/5">Nomor Uji Kendaraan</td>
-                    <td className="py-2 md:py-3">: CC283232109</td>
+                    <td className="py-2 w-[35%]">Nomor Uji Kendaraan</td>
+                    <td className="py-2">: CC283232109</td>
                   </tr>
                   <tr className="border-b border-gray-200 hover:bg-gray-100">
-                    <td className="py-2 md:py-3 w-2/5">Nomor dan Tanggal Sertifikat Registrasi</td>
-                    <td className="py-2 md:py-3">: 02 JUNI 2025</td>
+                    <td className="py-2 w-[35%]">Nomor dan Tanggal Sertifikat Registrasi</td>
+                    <td className="py-2">: 02 JUNI 2025</td>
                   </tr>
                   <tr className="border-b border-gray-200 hover:bg-gray-100">
-                    <td className="py-2 md:py-3 w-2/5">Nomor Registrasi Kendaraan</td>
-                    <td className="py-2 md:py-3">: KB 8013 IP</td>
+                    <td className="py-2 w-[35%]">Nomor Registrasi Kendaraan</td>
+                    <td className="py-2">: KB 8013 IP</td>
                   </tr>
                   <tr className="border-b border-gray-200 hover:bg-gray-100">
-                    <td className="py-2 md:py-3 w-2/5">Nomor Rangka Kendaraan</td>
-                    <td className="py-2 md:py-3">: MHMFE74P5EK127813</td>
+                    <td className="py-2 w-[35%]">Nomor Rangka Kendaraan</td>
+                    <td className="py-2">: MHMFE74P5EK127813</td>
                   </tr>
-                  <tr className=" hover:bg-gray-100">
-                    <td className="py-2 md:py-3 w-2/5">Nomor Motor Penggerak</td>
-                    <td className="py-2 md:py-3">: 4D34TK53997</td>
+                  <tr>
+                    <td className="py-2 w-[35%]">Nomor Motor Penggerak</td>
+                    <td className="py-2">: 4D34TK53997</td>
                   </tr>
                 </tbody>
               </table>
@@ -97,10 +95,10 @@ Pemilik</td>
           </div>
         </section>
 
-      {/* Vehicle Photos */}
-      <section className="px-4 mb-6">
-        <h3 className="text-gray-600 text-xs md:text-sm uppercase font-medium mb-2 ml-1">FOTO KENDARAAN</h3>
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-2 justify-items-center">
+        {/* Vehicle Photos */}
+        <section className="mb-6">
+          <h3 className="text-gray-600 text-[11px] uppercase font-medium mb-2 ml-1">  FOTO KENDARAAN</h3>
+          <div className="grid grid-cols-4 gap-4">
           {[
             { title: "TAMPAK DEPAN", src: "/tampak-depan.png" },
             { title: "TAMPAK BELAKANG", src: "/tampak-belakang.png" },
@@ -124,10 +122,10 @@ Pemilik</td>
       </section>
 
       {/* Specifications and Test Results */}
-      <section className="flex flex-col md:flex-row justify-between px-4 gap-4 mb-6">
+      <section className="flex flex-row justify-between gap-4 mb-6">
         {/* Technical Specifications */}
         <div className="w-full">
-          <h3 className="text-gray-600 text-xs md:text-sm uppercase font-medium mb-2 ml-1">SPESIFIKASI TEKNIS KENDARAAN BERMOTOR</h3>
+          <h3 className="text-gray-600 text-[11px] uppercase font-medium mb-2 ml-1">  SPESIFIKASI TEKNIS KENDARAAN BERMOTOR</h3>
           <div className="bg-white p-2 md:p-3 border border-gray-200 shadow-sm">
             <table className="w-full text-[10px] md:text-xs">
             <tbody>
@@ -167,12 +165,12 @@ Pemilik</td>
                 <td className="py-2 md:py-3">Berat Kosong Kendaraan</td>
                 <td className="py-2 md:py-3">: 3,820 kg</td>
               </tr>
-              <tr className="border-b border-gray-200 bg-gray-50">
+              <tr className="border-b border-gray-200 bg-white-50">
                 <td colSpan={2} className="py-2 md:py-3 font-bold text-[10px] md:text-xs">Dimensi utama kendaraan bermotor</td>
               </tr>
               <tr className="border-b border-gray-200 hover:bg-gray-100">
                 <td className="py-2 md:py-3"><Image src="/check.svg" alt="check" width={14} height={14} className="inline mr-1" /> Panjang</td>
-                <td className="py-2 md:py-3">: 5,820 mm &nbsp;&nbsp; <Image src="/check.svg" alt="check" width={14} height={14} className="inline mr-1" /> Julur Depan : 1,075 mm</td>
+                <td className="py-2 md:py-3">: 5,825 mm &nbsp;&nbsp; <Image src="/check.svg" alt="check" width={14} height={14} className="inline mr-1" /> Julur Depan : 1,075 mm</td>
               </tr>
               <tr className="border-b border-gray-200 hover:bg-gray-100">
                 <td className="py-2 md:py-3"><Image src="/check.svg" alt="check" width={14} height={14} className="inline mr-1" /> Lebar</td>
@@ -182,7 +180,7 @@ Pemilik</td>
                 <td className="py-2 md:py-3"><Image src="/check.svg" alt="check" width={14} height={14} className="inline mr-1" /> Tinggi</td>
                 <td className="py-2 md:py-3">: 2,400 mm</td>
               </tr>
-              <tr className="border-b border-gray-200 bg-gray-50">
+              <tr className="border-b border-gray-200 bg-white-50">
                 <td colSpan={2} className="py-2 md:py-3 font-bold text-[10px] md:text-xs">Jarak Sumbu</td>
               </tr>
               <tr className="border-b border-gray-200 hover:bg-gray-100">
@@ -197,7 +195,7 @@ Pemilik</td>
                 <td className="py-2 md:py-3"><Image src="/check.svg" alt="circle" width={14} height={14} className="inline mr-1" /> Sumbu III - IV</td>
                 <td className="py-2 md:py-3">: 0 mm</td>
               </tr>
-              <tr className="border-b border-gray-200 bg-gray-50">
+              <tr className="border-b border-gray-200 bg-white-50">
                 <td colSpan={2} className="py-2 md:py-3 font-bold text-[10px] md:text-xs">Dimensi bak muatan/tangki</td>
               </tr>
               <tr className="border-b border-gray-200 hover:bg-gray-100">
@@ -206,11 +204,11 @@ Pemilik</td>
               </tr>
               <tr className="border-b border-gray-200 hover:bg-gray-100">
                 <td className="py-2 md:py-3">JBB/JBKB</td>
-                <td className="py-2 md:py-3">: 7,500 kg / 0kg</td>
+                <td className="py-2 md:py-3">: 8,500 kg / 0kg</td>
               </tr>
               <tr className="border-b border-gray-200 hover:bg-gray-100">
                 <td className="py-2 md:py-3">JBI/JBKI</td>
-                <td className="py-2 md:py-3">: 7,500 kg /0 kg</td>
+                <td className="py-2 md:py-3">: 8,500 kg /0 kg</td>
               </tr>
               <tr className="border-b border-gray-200 hover:bg-gray-100">
                 <td className="py-2 md:py-3">Daya angkut (orang/kg)</td>
@@ -227,7 +225,7 @@ Pemilik</td>
 
         {/* Test Results */}
         <div className="w-full">
-          <h3 className="text-gray-600 text-xs md:text-sm uppercase font-medium mb-2 ml-1">RINCIAN HASIL UJI</h3>
+          <h3 className="text-gray-600 text-[11px] uppercase font-medium mb-2 ml-1">  RINCIAN HASIL UJI</h3>
           <div className="bg-white p-2 md:p-3 border border-gray-200 shadow-sm mb-4">
             <table className="w-full text-[10px] md:text-xs">
               <tbody>
@@ -283,7 +281,7 @@ Pemilik</td>
             </table>
           </div>
           
-          <h3 className="text-gray-600 text-xs md:text-sm uppercase font-medium mb-2 ml-1">RINCIAN HASIL UJI</h3>
+          <h3 className="text-gray-600 text-[11px] uppercase font-medium mb-2 ml-1">RINCIAN HASIL UJI</h3>
           <div className="bg-white p-3 md:p-4 border border-gray-100 shadow-sm">
             <table className="w-full text-xs">
               <tbody>
@@ -319,7 +317,7 @@ Pemilik</td>
                   <td className="py-2 md:py-3 w-2/5">Unit Pelaksana Teknis Daerah Pengujian</td>
                   <td className="py-2 md:py-3">: DISHUB KOTAWARINGIN BARAT</td>
                 </tr>
-                <tr className="border-b border-gray-200 bg-gray-50">
+                <tr className="border-b border-gray-200 bg-white-50">
                   <td colSpan={2} className="py-2 md:py-3 font-bold text-[10px] md:text-xs">Asal Kendaraan Wajib Uji</td>
                 </tr>
                 <tr className="border-b border-gray-200 hover:bg-gray-100">
