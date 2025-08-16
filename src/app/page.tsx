@@ -25,7 +25,7 @@ export default function Home() {
         <h2 className="text-lg md:text-xl mb-2 uppercase font-medium">UJI BERKALA KENDARAAN BERMOTOR</h2>
         <p className="text-[#5dc761] text-base md:text-lg font-medium">Hasil Uji Masih Berlaku</p>
         <p className="text-[#6e45d9] text-sm md:text-base mt-1 font-medium">(Numpang Uji)</p>
-        <p className="text-sm md:text-base mt-3 mb-6">Masa Berlaku Hasil Uji : 02 DESEMBER 2025</p>
+        <p className="text-sm md:text-base mt-3 mb-6">Masa Berlaku Hasil Uji : 17 SEPTEMBER 2025</p>
       </main>
 
       {/* Identity Sections */}
@@ -39,11 +39,12 @@ export default function Home() {
                 <tbody>
                   <tr className="border-b border-gray-200 hover:bg-gray-100">
                     <td className="py-2 w-[35%]">Nama Pemilik</td>
-                    <td className="py-2">: NOUR ABDI</td>
+                    <td className="py-2">: M U S A </td>
                   </tr>
                   <tr className="border-b border-gray-200 hover:bg-gray-100">
                     <td className="py-2 w-[35%]">Alamat Pemilik</td>
-                    <td className="py-2">: DUSUN TANJUNG BELIMBING RT001/RW005, Pangkalan Buton Kec. Sukadana Kayong Utara </td>
+                    <td className="py-2">: DDSN PAYAK HITAM RT.18/04 SUTERA
+                                               Kec. Sukadana Kayong Utara </td>
                   </tr>
                   <tr className="border-b border-gray-200 bg-white hover:bg-gray-100">
                     <td colSpan={2} className="py-2 font-bold text-[10px]">
@@ -52,11 +53,11 @@ export default function Home() {
                   </tr>
                   <tr className="border-b border-gray-200 hover:bg-gray-100">
                     <td className="py-2 w-[35%]">Nomor Kartu</td>
-                    <td className="py-2">: J4398433</td>
+                    <td className="py-2">: J5407524</td>
                   </tr>
                   <tr>
                     <td className="py-2 w-[35%]">Nomor RFID </td>
-                    <td className="py-2">: J4395278</td>
+                    <td className="py-2">: J5406389</td>
                   </tr>
                 </tbody>
               </table>
@@ -71,23 +72,23 @@ export default function Home() {
                 <tbody>
                   <tr className="border-b border-gray-200 hover:bg-gray-100">
                     <td className="py-2 w-[35%]">Nomor Uji Kendaraan</td>
-                    <td className="py-2">: CC283232109</td>
+                    <td className="py-2">: CC374143291</td>
                   </tr>
                   <tr className="border-b border-gray-200 hover:bg-gray-100">
                     <td className="py-2 w-[35%]">Nomor dan Tanggal Sertifikat Registrasi</td>
-                    <td className="py-2">: 02 JUNI 2025</td>
+                    <td className="py-2">: 17 APRIL 2025</td>
                   </tr>
                   <tr className="border-b border-gray-200 hover:bg-gray-100">
                     <td className="py-2 w-[35%]">Nomor Registrasi Kendaraan</td>
-                    <td className="py-2">: KB 8013 IP</td>
+                    <td className="py-2">: KB 8788 GC</td>
                   </tr>
                   <tr className="border-b border-gray-200 hover:bg-gray-100">
                     <td className="py-2 w-[35%]">Nomor Rangka Kendaraan</td>
-                    <td className="py-2">: MHMFE74P5EK127813</td>
+                    <td className="py-2">: MHKP3CA1JPK144804</td>
                   </tr>
                   <tr>
                     <td className="py-2 w-[35%]">Nomor Motor Penggerak</td>
-                    <td className="py-2">: 4D34TK53997</td>
+                    <td className="py-2">: 3SZDGH3732</td>
                   </tr>
                 </tbody>
               </table>
@@ -100,10 +101,10 @@ export default function Home() {
           <h3 className="text-gray-600 text-[11px] uppercase font-medium mb-2 ml-1">  FOTO KENDARAAN</h3>
           <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
           {[
-            { title: "TAMPAK DEPAN", src: "/tampak-depan.png" },
-            { title: "TAMPAK BELAKANG", src: "/tampak-belakang.png" },
-            { title: "TAMPAK KANAN", src: "/tampak-kanan.png" },
-            { title: "TAMPAK KIRI", src: "/tampak-kiri.png" }
+            { title: "TAMPAK DEPAN", src: "/tampak-depan-musa.png" },
+            { title: "TAMPAK BELAKANG", src: "/tampak-belakang-musa.png" },
+            { title: "TAMPAK KANAN", src: "/tampak-kanan-musa.png" },
+            { title: "TAMPAK KIRI", src: "/tampak-kiri-musa.png" }
           ].map((foto, index) => (
             <div key={index} className="bg-white p-1 md:p-2 border border-gray-200 shadow-sm w-full">
               <h4 className="text-[9px] md:text-xs mb-1 text-center font-medium">{foto.title}</h4>
@@ -131,61 +132,61 @@ export default function Home() {
             <tbody>
               <tr className="border-b border-gray-200 hover:bg-gray-100">
                 <td className="py-2 md:py-3 w-2/5">Jenis</td>
-                <td className="py-2 md:py-3">: DUMP TRUCK</td>
+                <td className="py-2 md:py-3">: MOBIL BARANG BAK TERBUKA </td>
               </tr>
               <tr className="border-b border-gray-200 hover:bg-gray-100">
                 <td className="py-2 md:py-3">Merk / Tipe</td>
-                <td className="py-2 md:py-3">: Mitsubishi / Colt Diesel FE74HDV</td>
+                <td className="py-2 md:py-3">: DAIHATSU / S402RP</td>
               </tr>
               <tr className="border-b border-gray-200 hover:bg-gray-100">
                 <td className="py-2 md:py-3">Tahun Pembuatan / Perakitan</td>
-                <td className="py-2 md:py-3">: 2014</td>
+                <td className="py-2 md:py-3">: 2017</td>
               </tr>
               <tr className="border-b border-gray-200 hover:bg-gray-100">
                 <td className="py-2 md:py-3">Bahan Bakar / Sumber Energi</td>
-                <td className="py-2 md:py-3">: SOLAR</td>
+                <td className="py-2 md:py-3">: BENSIN</td>
               </tr>
               <tr className="border-b border-gray-200 hover:bg-gray-100">
                 <td className="py-2 md:py-3">Isi Silinder</td>
-                <td className="py-2 md:py-3">: 3,908 cc</td>
+                <td className="py-2 md:py-3">: 1,495 cc</td>
               </tr>
               <tr className="border-b border-gray-200 hover:bg-gray-100">
                 <td className="py-2 md:py-3">Daya Motor</td>
-                <td className="py-2 md:py-3">: 125 KW/PS/HP</td>
+                <td className="py-2 md:py-3">: 72 KW/PS/HP</td>
               </tr>
               <tr className="border-b border-gray-200 hover:bg-gray-100">
                 <td className="py-2 md:py-3">Ukuran Ban</td>
-                <td className="py-2 md:py-3">: 750-16-14 PR</td>
+                <td className="py-2 md:py-3">: 175-13/8 PR </td>
               </tr>
               <tr className="border-b border-gray-200 hover:bg-gray-100">
                 <td className="py-2 md:py-3">Konfigurasi Sumbu</td>
-                <td className="py-2 md:py-3">: 1.2</td>
+                <td className="py-2 md:py-3">: 1.1</td>
               </tr>
               <tr className="border-b border-gray-200 hover:bg-gray-100">
                 <td className="py-2 md:py-3">Berat Kosong Kendaraan</td>
-                <td className="py-2 md:py-3">: 3,820 kg</td>
+                <td className="py-2 md:py-3">: 1,080 kg</td>
               </tr>
               <tr className="border-b border-gray-200 bg-white-50">
                 <td colSpan={2} className="py-2 md:py-3 font-bold text-[10px] md:text-xs">Dimensi utama kendaraan bermotor</td>
               </tr>
               <tr className="border-b border-gray-200 hover:bg-gray-100">
                 <td className="py-2 md:py-3"><Image src="/check.svg" alt="check" width={14} height={14} className="inline mr-1" /> Panjang</td>
-                <td className="py-2 md:py-3">: 5,825 mm &nbsp;&nbsp; <Image src="/check.svg" alt="check" width={14} height={14} className="inline mr-1" /> Julur Depan : 1,075 mm</td>
+                <td className="py-2 md:py-3">: 4,195 mm &nbsp;&nbsp; <Image src="/check.svg" alt="check" width={14} height={14} className="inline mr-1" /> Julur Depan : 585 mm</td>
               </tr>
               <tr className="border-b border-gray-200 hover:bg-gray-100">
                 <td className="py-2 md:py-3"><Image src="/check.svg" alt="check" width={14} height={14} className="inline mr-1" /> Lebar</td>
-                <td className="py-2 md:py-3">: 2,010 mm &nbsp;&nbsp; <Image src="/check.svg" alt="check" width={14} height={14} className="inline mr-1" /> Julur Belakang : 1,400 mm</td>
+                <td className="py-2 md:py-3">: 1,665 mm &nbsp;&nbsp; <Image src="/check.svg" alt="check" width={14} height={14} className="inline mr-1" /> Julur Belakang : 960 mm</td>
               </tr>
               <tr className="border-b border-gray-200 hover:bg-gray-100">
                 <td className="py-2 md:py-3"><Image src="/check.svg" alt="check" width={14} height={14} className="inline mr-1" /> Tinggi</td>
-                <td className="py-2 md:py-3">: 2,400 mm</td>
+                <td className="py-2 md:py-3">: 1,920 mm</td>
               </tr>
               <tr className="border-b border-gray-200 bg-white-50">
                 <td colSpan={2} className="py-2 md:py-3 font-bold text-[10px] md:text-xs">Jarak Sumbu</td>
               </tr>
               <tr className="border-b border-gray-200 hover:bg-gray-100">
                 <td className="py-2 md:py-3"><Image src="/check.svg" alt="circle" width={14} height={14} className="inline mr-1" /> Sumbu I - II</td>
-                <td className="py-2 md:py-3">: 3,350 mm</td>
+                <td className="py-2 md:py-3">: 2,650 mm</td>
               </tr>
               <tr className="border-b border-gray-200 hover:bg-gray-100">
                 <td className="py-2 md:py-3"><Image src="/check.svg" alt="circle" width={14} height={14} className="inline mr-1" /> Sumbu II - III</td>
@@ -200,19 +201,19 @@ export default function Home() {
               </tr>
               <tr className="border-b border-gray-200 hover:bg-gray-100">
                 <td className="py-2 md:py-3 w-2/5"><Image src="/check.svg" alt="check" width={14} height={14} className="inline mr-1" /> Panjang x Lebar x Tinggi</td>
-                <td className="py-2 md:py-3">: 4000 x 2010 x 1000 mm</td>
+                <td className="py-2 md:py-3">: 2395 x 1657 x 300 mm </td>
               </tr>
               <tr className="border-b border-gray-200 hover:bg-gray-100">
                 <td className="py-2 md:py-3">JBB/JBKB</td>
-                <td className="py-2 md:py-3">: 8,500 kg / 0kg</td>
+                <td className="py-2 md:py-3">: 2,850 kg / 0kg </td>
               </tr>
               <tr className="border-b border-gray-200 hover:bg-gray-100">
                 <td className="py-2 md:py-3">JBI/JBKI</td>
-                <td className="py-2 md:py-3">: 8,500 kg /0 kg</td>
+                <td className="py-2 md:py-3">: 2,850 kg / 0kg </td>
               </tr>
               <tr className="border-b border-gray-200 hover:bg-gray-100">
                 <td className="py-2 md:py-3">Daya angkut (orang/kg)</td>
-                <td className="py-2 md:py-3">: 3 orang / 4,500 kg</td>
+                <td className="py-2 md:py-3">: 3 orang / 840 kg</td>
               </tr>
               <tr>
                 <td className="py-2 md:py-3 text-[10px] md:text-xs">Kelas jalan terendah yang boleh dilalui</td>
@@ -231,15 +232,15 @@ export default function Home() {
               <tbody>
                 <tr className="border-b border-gray-200 hover:bg-gray-100">
                   <td className="py-2 md:py-3 w-2/5">Rem Utama</td>
-                  <td className="py-2 md:py-3">: 2,040 kg</td>
+                  <td className="py-2 md:py-3">: 562 kg</td>
                 </tr>
                 <tr className="border-b border-gray-200 hover:bg-gray-100">
                   <td className="py-2 md:py-3 w-2/5">Rem Utama Sumbu I</td>
-                  <td className="py-2 md:py-3">: 3 %</td>
+                  <td className="py-2 md:py-3">: 2 %</td>
                 </tr>
                 <tr className="border-b border-gray-200 hover:bg-gray-100">
                   <td className="py-2 md:py-3 w-2/5">Rem Utama Sumbu II</td>
-                  <td className="py-2 md:py-3">: 3 %</td>
+                  <td className="py-2 md:py-3">: 1 %</td>
                 </tr>
                 <tr className="border-b border-gray-200 hover:bg-gray-100">
                   <td className="py-2 md:py-3 w-2/5">Rem Utama Sumbu III</td>
@@ -251,27 +252,27 @@ export default function Home() {
                 </tr>
                 <tr className="border-b border-gray-200 hover:bg-gray-100">
                   <td className="py-2 md:py-3 w-2/5">Lampu Utama Kanan</td>
-                  <td className="py-2 md:py-3">: 21,900 cd</td>
+                  <td className="py-2 md:py-3">: 15,000 cd </td>
                 </tr>
                 <tr className="border-b border-gray-200 hover:bg-gray-100">
                   <td className="py-2 md:py-3 w-2/5">Lampu Utama Kiri</td>
-                  <td className="py-2 md:py-3">: 21,500 cd</td>
+                  <td className="py-2 md:py-3">: 15,100 cd </td>
                 </tr>
                 <tr className="border-b border-gray-200 hover:bg-gray-100">
                   <td className="py-2 md:py-3 w-2/5">Lampu Utama Penyimpangan Kanan</td>
-                  <td className="py-2 md:py-3">: 0.10</td>
+                  <td className="py-2 md:py-3">: 19.00</td>
                 </tr>
                 <tr className="border-b border-gray-200 hover:bg-gray-100">
                   <td className="py-2 md:py-3 w-2/5">Lampu Utama Penyimpangan Kiri</td>
-                  <td className="py-2 md:py-3">: 0.80</td>
+                  <td className="py-2 md:py-3">: 28.00</td>
                 </tr>
                 <tr className="border-b border-gray-200 hover:bg-gray-100">
                   <td className="py-2 md:py-3 w-2/5">Emisi CO</td>
-                  <td className="py-2 md:py-3">: 22 %</td>
+                  <td className="py-2 md:py-3">: 0,18 %</td>
                 </tr>
                 <tr className="border-b border-gray-200 hover:bg-gray-100">
                   <td className="py-2 md:py-3 w-2/5">Emisi HC</td>
-                  <td className="py-2 md:py-3">: 0 ppm</td>
+                  <td className="py-2 md:py-3">: 22 ppm</td>
                 </tr>
                 <tr className=" hover:bg-gray-100">
                   <td className="py-2 md:py-3 w-2/5">Ketebalan Asap</td>
@@ -291,7 +292,7 @@ export default function Home() {
                 </tr>
                 <tr className="border-b border-gray-200 hover:bg-gray-100">
                   <td className="py-3 w-2/5">Masa berlaku uji berkala</td>
-                  <td className="py-3">: 02 DESEMBER 2025</td>
+                  <td className="py-3">: 17 SEPTEMBER 2025 </td>
                 </tr>
                 <tr className="border-b border-gray-200 hover:bg-gray-100">
                   <td className="py-3 w-2/5">Nama Petugas Penguji</td>
