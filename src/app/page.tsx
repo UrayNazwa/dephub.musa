@@ -38,13 +38,12 @@ export default function Home() {
               <table className="w-full text-[11px]">
                 <tbody>
                   <tr className="border-b border-gray-200 hover:bg-gray-100">
-                    <td className="py-2 w-[35%]">Nama Pemilik</td>
-                    <td className="py-2">: M U S A </td>
+                    <td className="py-2 w-[35%]">Nama Pemilik </td>
+                    <td className="py-2">: MUSA </td>
                   </tr>
                   <tr className="border-b border-gray-200 hover:bg-gray-100">
-                    <td className="py-2 w-[35%]">Alamat Pemilik</td>
-                    <td className="py-2">: DDSN PAYAK HITAM RT.18/04 SUTERA
-                                               Kec. Sukadana Kayong Utara </td>
+                    <td className="py-2 w-[35%]">Alamat Pemilik </td>
+                    <td className="py-2">: DSN PAYAK HITAM RT.18/04 SUTERA Kec. Sukadana Kayong Utara </td>
                   </tr>
                   <tr className="border-b border-gray-200 bg-white hover:bg-gray-100">
                     <td colSpan={2} className="py-2 font-bold text-[10px]">
