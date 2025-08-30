@@ -25,7 +25,7 @@ export default function Home() {
         <h2 className="text-lg md:text-xl mb-2 uppercase font-medium">UJI BERKALA KENDARAAN BERMOTOR</h2>
         <p className="text-[#5dc761] text-base md:text-lg font-medium">Hasil Uji Masih Berlaku</p>
         <p className="text-[#6e45d9] text-sm md:text-base mt-1 font-medium">(Numpang Uji)</p>
-        <p className="text-sm md:text-base mt-3 mb-6">Masa Berlaku Hasil Uji : 17 SEPTEMBER 2025</p>
+        <p className="text-sm md:text-base mt-3 mb-6">Masa Berlaku Hasil Uji : 17 NOVEMBER 2025</p>
       </main>
 
       {/* Identity Sections */}
@@ -75,7 +75,7 @@ export default function Home() {
                   </tr>
                   <tr className="border-b border-gray-200 hover:bg-gray-100">
                     <td className="py-2 w-[35%]">Nomor dan Tanggal Sertifikat Registrasi</td>
-                    <td className="py-2">: 17 APRIL 2025</td>
+                    <td className="py-2">: 17 JUNI 2025</td>
                   </tr>
                   <tr className="border-b border-gray-200 hover:bg-gray-100">
                     <td className="py-2 w-[35%]">Nomor Registrasi Kendaraan</td>
@@ -291,7 +291,7 @@ export default function Home() {
                 </tr>
                 <tr className="border-b border-gray-200 hover:bg-gray-100">
                   <td className="py-3 w-2/5">Masa berlaku uji berkala</td>
-                  <td className="py-3">: 17 SEPTEMBER 2025 </td>
+                  <td className="py-3">: 17 NOVEMBER 2025 </td>
                 </tr>
                 <tr className="border-b border-gray-200 hover:bg-gray-100">
                   <td className="py-3 w-2/5">Nama Petugas Penguji</td>
