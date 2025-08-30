@@ -204,11 +204,11 @@ export default function Home() {
               </tr>
               <tr className="border-b border-gray-200 hover:bg-gray-100">
                 <td className="py-2 md:py-3">JBB/JBKB</td>
-                <td className="py-2 md:py-3">: 2,850 kg / 0kg </td>
+                <td className="py-2 md:py-3">: 2,150 kg / 0kg </td>
               </tr>
               <tr className="border-b border-gray-200 hover:bg-gray-100">
                 <td className="py-2 md:py-3">JBI/JBKI</td>
-                <td className="py-2 md:py-3">: 2,850 kg / 0kg </td>
+                <td className="py-2 md:py-3">: 2,150 kg / 0kg </td>
               </tr>
               <tr className="border-b border-gray-200 hover:bg-gray-100">
                 <td className="py-2 md:py-3">Daya angkut (orang/kg)</td>
